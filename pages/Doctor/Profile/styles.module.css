@@ -1,0 +1,91 @@
+.profileLayout{
+    display: flex;
+    background: #FFFFFF;
+/* Stroke 1 */
+height: 89vh;
+overflow: scroll;
+border: 1px solid rgba(228, 228, 228, 0.5);
+/* Shadow 1 */
+
+box-shadow: 0px 6px 24px rgba(18, 123, 218, 0.06);
+border-radius: 10px;
+padding-top: 36px;
+padding-bottom: 36px;
+}
+.profileLayout h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.profile{
+    margin-bottom: 27px;
+    margin-left: 35px;
+}
+.profileSelection{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 18px 21px;
+    color: #122750;
+}
+.profileSelection:hover{
+    background: #E7F1FB;
+border-radius: 0px;
+}
+.profileSelection h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+/* Monochromatic */
+
+color: #122750;
+
+}
+.switch{
+    color: #122750; 
+}
+.profileSelectionInn{
+    gap: 22px;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.profileContent{
+    padding: 35px 24px;
+    width: 100%;
+}
+.profileContent h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.context{
+    display: flex;
+    justify-content: center;
+    width: 65%;
+}

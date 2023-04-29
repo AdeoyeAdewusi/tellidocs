@@ -12,7 +12,7 @@ const DiagnosisSvg = () => {
       <g filter="url(#filter0_d_1_298)">
         <rect x="24" y="18" width="90" height="90" rx="10" fill="#E7F1FB" />
       </g>
-      <g clip-path="url(#clip0_1_298)">
+      <g clipPath="url(#clip0_1_298)">
         <path
           d="M74.3613 71.2199L77.2125 68.3687L83.1652 74.3215L80.314 77.1727L74.3613 71.2199Z"
           fill="#8E99A3"
@@ -126,9 +126,9 @@ const DiagnosisSvg = () => {
           width="138"
           height="138"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"

@@ -1,0 +1,220 @@
+.appointments{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.apponts{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.apponts h1{
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+}
+.apponts p{
+    font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 12px;
+
+/* Secondary text */
+
+
+color: #1E3354;
+
+}
+.filterby{
+    background: #FFFFFF;
+/* Input fields */
+width: 30%;
+border: 0.3px solid #697D95;
+border-radius: 5px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+padding: 14px 16px;
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.apponts p span{
+    color: #8B8C8C !important;
+}
+.setAppoint{
+    background: #122750;
+border-radius: 5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 14px 21px;
+gap: 13px;
+}
+.button{
+    font-size: 28px;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+
+}
+
+.searchFilter{
+width: 43%;
+}
+.searchbar input{
+    background: #FFFFFF !important;
+    
+/* Input fields */
+padding: 13px 18px;
+border: 0.3px solid #697D95;
+border-radius: 5px;
+width: 100%;
+
+}
+.searchLogo{
+    margin-left:-30px;
+    color:#697D95;
+}
+.filterForm{
+display: flex;
+justify-content: space-between;
+
+}
+.mainFilters{
+    display: flex;
+    justify-content: space-between;
+    gap: 17px;
+    width: 45%;
+}
+.listCalendar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+/* Input fields */
+
+border: 0.3px solid #697D95;
+border-radius: 5px;
+}
+.listCalendar div{
+    padding: 12px 14px;
+}
+.fontColor{
+    color: green;
+}
+.listHr{
+    height: 100%;
+    border: 0.3px solid #697D95;
+}
+.table{
+    margin-top: 24px;
+    color: black;
+}
+.table table{
+    width: 100%;
+}
+.table table thead{
+    background-color: #1c87c9;
+}
+.table thead tr{
+    background: #F8FBFF;
+}
+.table thead tr th{
+    background: #F8FBFF;
+border-radius: 10px 10px 0px 0px;
+padding: 19px 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+/* Secondary text */
+
+color: #8B8C8C;
+
+}
+.table  tbody td{
+    text-align: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 12px;
+padding-top: 20px;
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.table  tbody{
+    margin-top: 15px;
+}
+.pending{
+    background: #FEF4E8;
+border-radius: 5px;
+color: #F9971E;
+font-weight: 500;
+padding: 6px 27px;
+}
+.completed{
+    background: #E9F5EB;
+    border-radius: 5px;
+    color: #28A138;
+    font-weight: 500;
+    padding: 6px 27px;
+}
+.fbinvoice{
+    width: 18.5px;
+    height: 23px;
+}
+.table{
+    width: 100%;
+    height: 70vh;
+    overflow: scroll;
+    background: #FFFFFF;
+/* Stroke 1 */
+
+border: 1px solid rgba(228, 228, 228, 0.5);
+/* Shadow 1 */
+
+box-shadow: 0px 6px 24px rgba(18, 123, 218, 0.06);
+border-radius: 10px;
+}
+.profileAppointmment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+}
+.prfile{
+    display: flex;
+    justify-content: center;
+}
+.profileName{
+    display:flex;
+    justify-content: space-between;
+    gap: 8px;
+    flex-direction: column;
+}
+.checks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    width: 70%;
+}

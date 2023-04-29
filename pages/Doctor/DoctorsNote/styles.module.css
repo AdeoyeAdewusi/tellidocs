@@ -1,0 +1,324 @@
+.table{
+    margin-top: 24px;
+    color: black;
+}
+.table table{
+    width: 100%;
+}
+.table table thead{
+    background-color: #1c87c9;
+}
+.table thead tr{
+    background: #F8FBFF;
+}
+.table thead tr th{
+    background: #F8FBFF;
+border-radius: 10px 10px 0px 0px;
+padding: 19px 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+/* Secondary text */
+
+color: #8B8C8C;
+
+}
+.table  tbody td{
+    text-align: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 12px;
+padding-top: 20px;
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.table  tbody{
+    margin-top: 15px;
+}
+.pending{
+    background: #FEF4E8;
+border-radius: 5px;
+color: #F9971E;
+font-weight: 500;
+padding: 6px 27px;
+}
+.completed{
+    background: #E9F5EB;
+    border-radius: 5px;
+    color: #28A138;
+    font-weight: 500;
+    padding: 6px 27px;
+}
+.fbinvoice{
+    width: 18.5px;
+    height: 23px;
+}
+.table{
+    width: 100%;
+    height: 70vh;
+    overflow: scroll;
+    background: #FFFFFF;
+/* Stroke 1 */
+
+border: 1px solid rgba(228, 228, 228, 0.5);
+/* Shadow 1 */
+
+box-shadow: 0px 6px 24px rgba(18, 123, 218, 0.06);
+border-radius: 10px;
+}
+.profileAppointmment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+}
+.prfile{
+    display: flex;
+    justify-content: center;
+}
+.profileName{
+    display:flex;
+    justify-content: space-between;
+    gap: 8px;
+    flex-direction: column;
+}
+.checks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    width: 70%;
+}
+.ntes{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 24px;
+}
+.ntes h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.detailsImg{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 19%;
+    margin-bottom: 5px;
+}
+.detsName{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+.detsName p:nth-child(1){
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.detsName p:nth-child(2){
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+/* Secondary text */
+
+color: #8B8C8C;
+}
+.detsName p:nth-child(3){
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+/* Secondary text */
+
+color: #8B8C8C;
+}
+.details p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.details{
+    margin-bottom: 30px;
+    display: flex;
+align-items: center;
+gap: 15px;
+color: #1E3354;
+}
+.fullDetails{
+    display: flex;
+    justify-content: space-between;
+}
+.fullDetails h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+margin-bottom: 14px;
+/* Sanar Text 1 */
+margin-top: 35px;
+color: #1E3354;
+
+}
+/* .fullDetails div:nth-child(1){
+    width: 70%;
+}
+.fullDetails div:nth-child(2){
+    width: 50%;
+} */
+.fullDetails p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+/* margin-bottom: 35px; */
+/* Secondary text */
+
+color: #8B8C8C;
+}
+.patientDets{
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+}
+.patientDetslft{
+    width: 28%;
+}
+.patientDetslft p{
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 186% */
+    
+    
+    /* Sanar Text 1 */
+    
+    color: #1E3354;
+}
+.patientDetsrgt {
+    width: 100%;
+
+
+}
+.patientDetsrgt  p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+
+/* Secondary text */
+
+color: #8B8C8C;
+}
+.vits{
+    width: 55%;
+}
+.vitalsa{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.vitalsa p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+margin-bottom: 10px;
+/* Sanar Text 1 */
+
+color: #1E3354 !important;
+}
+.vitalsDets{
+    display: flex;
+    justify-content: space-between;
+}
+.fullDetailsLft{
+    width: 45%;
+}
+.fullDetailsLft h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.fullDetailsRght{
+    width: 45%;
+}
+.fullDetailsRght ul li{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* Secondary text */
+list-style: none;
+text-decoration: none;
+color: #8B8C8C;
+}

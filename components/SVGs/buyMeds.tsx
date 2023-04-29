@@ -12,7 +12,7 @@ const BuyMeds = () => {
       <g filter="url(#filter0_d_1_358)">
         <rect x="24" y="18" width="90" height="90" rx="10" fill="#E7F1FB" />
       </g>
-      <g clip-path="url(#clip0_1_358)">
+      <g clipPath="url(#clip0_1_358)">
         <path
           d="M50.4453 46.7891H68.0234V55.5781H50.4453V46.7891Z"
           fill="#C3DAFD"
@@ -84,9 +84,9 @@ const BuyMeds = () => {
           width="138"
           height="138"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"

@@ -12,7 +12,7 @@ const ConsultationSvg = () => {
       <g filter="url(#filter0_d_1_350)">
         <rect x="24" y="18" width="90" height="90" rx="10" fill="#E7F1FB" />
       </g>
-      <g clip-path="url(#clip0_1_350)">
+      <g clipPath="url(#clip0_1_350)">
         <path
           d="M89.652 79.883C92.4643 76.8658 93.9973 73.1357 93.9973 69.2494C93.9973 64.3866 91.5952 59.9827 87.7479 56.858C87.6601 67.9995 77.1826 77.0611 64.3128 77.0611H55.6028C58.9716 82.6171 65.8166 86.4351 73.6869 86.4351H92.435C93.0697 86.4351 93.636 86.0543 93.8801 85.4684C94.1242 84.8825 93.9875 84.2088 93.5384 83.7694L89.652 79.883Z"
           fill="#5BA121"
@@ -38,9 +38,9 @@ const ConsultationSvg = () => {
           width="138"
           height="138"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"

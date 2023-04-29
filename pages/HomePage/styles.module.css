@@ -7,6 +7,9 @@
     width: 50%;
 
 }
+.body{
+    background: #F2F9FE;
+}
 .heroSectionI h1{
     font-family: 'Inter';
     font-style: normal;
@@ -139,10 +142,16 @@ color: #1E3354;
     text-align: end;
     justify-content: flex-end;
 }
+.joinBtnCov{
+    display: flex;
+    justify-content: flex-end;
+}
 .joinbtn{
     background: #285FE7;
 /* Primary Color */
-width: 30%;
+
+width: 100%;
+
 border: 0.5px solid #285FE7;
 border-radius: 5px;
 display: flex;
@@ -207,6 +216,7 @@ width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 105px;
 }
 .consultCover div{
     width: 50%;
@@ -280,7 +290,9 @@ font-weight: 400;
 font-size: 16px;
 line-height: 19px;
 text-align: center;
-
+line-height: 39px;
+/* identical to box height */
+margin-bottom: 8px;
 /* Secondary text */
 
 color: #8B8C8C;
@@ -439,7 +451,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 17px;
 /* identical to box height */
-
+margin-right: 7px;
 
 /* Brand color 2 */
 
@@ -463,6 +475,7 @@ color: #1E3354;
 display: flex;
 justify-content: space-between;
 color: #5BA121;
+align-items: center;
 }
 .testimonialsBg{
     background: white;
@@ -512,6 +525,7 @@ color: #122750;
 .profile{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .mainProfile{
@@ -522,4 +536,308 @@ color: #122750;
 }
 .arrowRight{
     color: #5BA121 !important;
+    display: flex;
+    justify-content: space-between;
+    gap: 17px;
+    align-items: center;
+}
+
+@media screen and (max-width: 990px) {
+    .quailified h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1E3354;
+    width: 70%;
+    }
+.heroSection{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.heroSection div{
+    width: 100%;
+
+}
+.mainSpecialisations{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.mainSpecialisations div{
+    width: 100%;
+}
+.joinSectInn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.joinSectInn h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+/* or 135% */
+
+text-align: right;
+
+color: #FFFFFF;
+}
+.joinSectInn p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 27px;
+/* or 225% */
+width: 100%;
+text-align: right;
+
+/* White */
+
+color: #FFFFFF;
+
+}
+.checklist p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+/* or 109% */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.healthServices h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 39px;
+/* identical to box height */
+margin-bottom: 8px;
+text-align: center;
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+}
+.quailified h1{
+    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    /* Sanar Text 1 */
+    
+    color: #1E3354;
+}
+.consultCover{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 72px;
+
+}
+.consultCover div{
+    width: 100%;
+}
+.checklist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75% !important;
+}
+.healthServices h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1E3354;
+    margin-top: 108px;
+}
+.servicfesMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.servicfesMain div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 48px;
+}
+.doctors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: scroll;
+    gap: 20px;
+}
+.regBtn{
+    margin-top: 25px;
+    display: none;
+}
+.testInner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 84%;
+    gap: 33px;
+
+}
+.testiomonialInnerBg{
+    background: url('/Assets/Images/mobileVersion.svg');
+    background-repeat: no-repeat;
+    background-position: 1px 2px;
+}
+.steps div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+    width: 50%;
+}
+.steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.registerDiv{
+    width: 40% !important;
+}
+.consult h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1E3354;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.consultP {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #8B8C8C;
+    width: 100%;
+    margin-bottom: 24px;
+}
+.heroSectionI h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    /* or 154% */
+    margin-top: 24px;
+    width: 100%;
+    /* Sanar Text 1 */
+    
+    color: #1E3354;
+    
+}
+.heroSectionI p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 27px;
+    /* or 225% */
+    
+    width: 100%;
+    /* Secondary text */
+    
+    color: #8B8C8C;
+    
+}
+.specialisationSect h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.specialisationSect p{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 27px;
+/* or 225% */
+
+
+/* Secondary text */
+
+color: #8B8C8C;
+
+}
+.mainSpecialisations p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 27px;
+/* or 225% */
+
+margin-bottom: 10px;
+/* Secondary text */
+
+color: #8B8C8C;
+
+}
+.consult h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 31px;
+/* or 156% */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.mainSpecialisations h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+
+}
 }

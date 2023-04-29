@@ -38,7 +38,12 @@
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
 }
-
+@font-face {
+  font-family: 'inter';
+  src: url('/Assets/Fonts/Inter/Inter-VariableFont_slnt,wght.ttf');
+  font-weight: 500;
+  font-style: normal;
+  }
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -75,24 +80,51 @@
   padding: 0;
   margin: 0;
 }
-
+input{
+  color: #122750;
+  background: #FFFFFF;
+/* Input fields */
+padding: 10px 15px;
+border: 0.3px solid #697D95;
+border-radius: 5px;
+}
+select{
+  padding: 10px 15px;
+border: 0.3px solid #697D95;
+border-radius: 5px;
+}
+input[type="checkbox"] {
+  accent-color:#fff;
+  }
+  input:focus{
+    outline: none;
+}
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background-color:  #F2F9FE;
+  background-color:  #fff;
+  scroll-behavior: smooth;
+}
+h1{
+  font-family: 'Inter';
+  font-style: normal;
 }
 p{
   font-family: 'Inter';
 font-style: normal;
 }
 body {
+  scroll-behavior: smooth;
   color: rgb(var(--foreground-rgb));
 
 }
 .pure-modal>*>.scrollable {
   overflow-x: none !important;
   /* overflow-scrolling: touch; */
+}
+label{
+  font-family: 'Inter';
 }
 a {
   color: inherit;

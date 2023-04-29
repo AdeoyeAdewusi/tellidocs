@@ -1,0 +1,483 @@
+.welcome{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #1E3354;
+    
+}
+.welcome span{
+    font-weight: 600;
+}
+.patients{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 6px;
+    font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+margin-bottom: 34px;
+margin-top: 14px;
+/* Grey 1 */
+
+color: #414141;
+
+}
+.patients p span{
+    color: #E7B028;
+}
+.drStats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E7F1FB;
+    padding: 19px 53px;
+   
+
+
+}
+.num{
+    display: flex;
+    gap: 8px;
+}
+.stastsDoiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
+}
+.stastsDoiv div p{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #1E3354;
+}
+.hr{
+    width: 40px;
+    border: solid 2px #122750;
+    
+}
+.stastsDoiv div h2{
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+/* Primary Color */
+
+color: #285FE7;
+}
+.point{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8.46px;
+}
+.apointments{
+    display: flex;
+    justify-content: space-between;
+  margin-top: 30px;
+
+  height: 395px;
+
+  position: relative;
+}
+.consult{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 14px;
+}
+.consult p{
+    font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: #1E3354;
+
+}
+.consultOver{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.mainC{
+    position:relative;
+    margin-bottom: 3px;
+
+}
+.moreInfo{
+    position: absolute;
+    right: 40%;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 24px rgba(50, 50, 71, 0.06);
+    border-radius: 10px;
+    z-index: 1;
+    padding: 20px;
+    width: 27%;
+}
+.topInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 36%;
+    max-width: 
+    316px;
+    min-width: 
+    316px;
+}
+.topBasicInfo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 8px;
+}
+.topInfoImg{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 11px;
+}
+.Todapointments{
+    overflow: scroll;
+    height: 362px;
+    width:32.9%;
+    background-color: white;
+    color: #122750;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border: 1px solid rgba(228, 228, 228, 0.5);
+    /* Shadow 1 */
+    
+    box-shadow: 0px 6px 24px rgba(18, 123, 218, 0.06);
+    border-radius: 10px;
+color: #1E3354;
+
+}
+.tips{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 16px;
+}
+.view{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.view p{
+    font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #1E3354;
+}
+.viewAll{
+    font-style: normal;
+font-weight: 500;
+font-size: 10px !important;
+line-height: 12px;
+
+/* Complementary */
+
+color: #E7B028 !important;
+
+}
+.consul{
+font-style: normal;
+font-weight: 400;
+font-size: 8px !important;
+line-height: 10px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+/* Secondary text */
+
+color: #8B8C8C !important;
+}
+
+.nmeConsult{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.mainConsultDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 11px;
+}
+.consult:hover{
+    background: #E7F1FB;
+}
+.consultHr{
+    border: 0.5px solid #E4E4E4;
+}
+.status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+}
+.tipSlide{
+    width: 236px;
+height: 161px;
+background: #FFFFFF;
+box-shadow: 0px 6px 24px rgba(50, 50, 71, 0.06);
+border-radius: 10px;
+}
+.invite{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+   background: #FFFFFF;
+   /* Stroke 1 */
+   
+   border: 1px solid rgba(228, 228, 228, 0.5);
+   /* Shadow 1 */
+   
+   box-shadow: 0px 6px 24px rgba(18, 123, 218, 0.06);
+   border-radius: 10px;
+   padding: 38px 35px 29px 35px;
+   gap: 23px;
+}
+.inviteP{
+    font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #1E3354;
+}
+.inviteSocials{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+
+}
+.hoverOn{
+    display: flex;
+    justify-content: flex-end;
+}
+.hoverOn p{
+    font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 12px;
+
+/* Secondary text */
+
+color: #8B8C8C;
+
+}
+.hoverOnDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 8px;
+    width: 73vw;
+}
+.dobGen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 23px;
+}
+.dob{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.dob p:nth-child(1){
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    
+    /* Monochromatic */
+    
+    color: #122750;
+    
+}
+.dob p:nth-child(2){
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* Secondary text */
+    
+    color: #8B8C8C;
+    
+}
+.purpose{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 24px;
+}
+.purpose p:nth-child(1){
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+
+/* Monochromatic */
+
+color: #122750;
+
+}
+.purpose p:nth-child(2){
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 15px;
+
+/* Secondary text */
+
+color: #8B8C8C;
+
+}
+.viewPatient{
+    margin-top: 24px;
+}
+.viewPatient p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+
+/* Complementary */
+
+color: #E7B028;
+
+}
+.joinMessage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+
+    width: 75%;
+
+}
+.joinMessage div:nth-child(1){
+    background: #122750;
+border-radius: 5px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 11px 34px;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+
+color: #FFFFFF;
+
+}
+.joinMessage div:nth-child(2){
+    background: #fff;
+border-radius: 5px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 11px 34px;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+
+/* Secondary text */
+
+color: #8B8C8C;
+
+}
+.topName p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+/* Monochromatic */
+
+color: #122750;
+
+}
+.topConsult p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 0.1em;
+
+/* Secondary text */
+
+color: #8B8C8C;
+
+}
+.topEmail p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+text-align: center;
+
+/* Secondary text */
+
+color: #8B8C8C;
+
+}
+.moreInforActive{
+    display: none;
+}

@@ -1,0 +1,44 @@
+.topNav{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    padding: 28px 45px;
+    position:absolute;
+    top: 5px;
+    width: 100vw;
+}
+.Language{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.topNavAvailFlex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.topNavFlex{
+    display:flex;
+    gap: 53px;
+    justify-content: space-between;
+}
+.topNavToggle{
+    /* Complementary */
+
+background: #E7B028;
+position: relative;
+width: 22px;
+height: 14px;
+border-radius: 20px;
+}
+.topnavSwitch{
+    background: #FFF;
+    width: 8px;
+height: 7px;
+position: absolute;
+top: 3px;
+left: 10px;
+border-radius: 20px;
+}

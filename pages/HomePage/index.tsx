@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import RegisterBtn from "../../components/buttons/Register";
 import Cover from "../../components/Cover";
 import Layout from "../../components/layout";
@@ -17,10 +17,28 @@ import ScalpleSvg from "../../components/SVGs/scalpleSvg";
 import ViginalSvg from "../../components/SVGs/viginalSvg";
 import DermatologySvg from "../../components/SVGs/dermatologySvg";
 import VirusSvg from "../../components/SVGs/virusSvg";
+import BackSvg from "../../components/SVGs/backSvg";
 
 const Homepage = () => {
+  const [width, setWidth] = useState(991);
+
+  const [height, setHeight] = useState(0);
+  const handleWindowResize = () => {
+    setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
+    console.log(width);
+  };
+  useEffect(() => {
+    setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
+    // component is mounted and window is available
+    handleWindowResize();
+    window.addEventListener("resize", handleWindowResize);
+    // unsubscribe from the event on component unmount
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, [width]);
   return (
-    <div>
+    <div className={styles.body}>
       <Layout back="">
         <Cover>
           <div className={styles.heroSection}>
@@ -34,20 +52,16 @@ const Homepage = () => {
                 platform provides solutions for the interactions between
                 patients, doctors and providers.
               </p>
-              <div>
-                <div>
-                  <p>Register</p>
-                </div>
-              </div>
+
               <div className={styles.regBtn}>
                 <RegisterBtn />
               </div>
             </div>
             <div>
-              <Image
+              <img
                 src="/Assets/Images/heroHeader.png"
-                width={609}
-                height={609}
+                width={width > 990 ? 609 : 270}
+                height={width > 990 ? 609 : 270}
                 alt="tellidoc image"
               />
             </div>
@@ -55,48 +69,6 @@ const Homepage = () => {
         </Cover>
         <div className={styles.specialisationBg}>
           <Cover>
-            <div className={styles.eclipses}>
-              <svg
-                width="30"
-                height="25"
-                viewBox="0 0 30 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0 24.2293C0 17.8824 3.1607 11.7955 8.78679 7.30756C14.4129 2.81964 22.0435 0.298347 30 0.29834L30 24.2293L0 24.2293Z"
-                  fill="#FCD5A5"
-                />
-              </svg>
-              <svg
-                width="27"
-                height="21"
-                viewBox="0 0 27 21"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M21.9902 0.0297573C24.7569 2.31013 26.2746 5.37382 26.2095 8.54683C26.1444 11.7198 24.5018 14.7423 21.6431 16.9492C18.7845 19.1562 14.9438 20.3668 10.9661 20.3149C6.98837 20.263 3.19943 18.9527 0.432786 16.6723L11.2115 8.35105L21.9902 0.0297573Z"
-                  fill="#B7D7F3"
-                />
-              </svg>
-              <svg
-                width="41"
-                height="33"
-                viewBox="0 0 41 33"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <ellipse
-                  cx="18.1561"
-                  cy="18.0246"
-                  rx="18.1561"
-                  ry="18.0246"
-                  transform="matrix(-0.791559 0.611092 -0.771661 -0.636034 48.5625 16.99)"
-                  fill="#CDE2BC"
-                />
-              </svg>
-            </div>
             {/* section 1 */}
             <div className={styles.specials}>
               <div className={styles.specialisationSect}>
@@ -182,7 +154,7 @@ const Homepage = () => {
             </div>
           </Cover>
         </div>
-        <div className={styles.joinBg}>
+        <div className={styles.joinBg} id="joinArea">
           <Cover>
             <div className={styles.joinSect}>
               <div className={styles.joinSectInn}>
@@ -192,8 +164,12 @@ const Homepage = () => {
                   tristique. Ullamcorper amet sit feugiat turpis odio arcu,
                   nisl. Odio faucibus gravida{" "}
                 </p>
-                <div className={styles.joinbtn}>
-                  <p>JOIN US</p>
+                <div className={styles.joinBtnCov}>
+                  <Link href="Auth">
+                    <div className={styles.joinbtn}>
+                      <p>JOIN US</p>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -203,10 +179,10 @@ const Homepage = () => {
           <Cover>
             <div className={styles.consultCover}>
               <div>
-                <Image
+                <img
                   src="/Assets/Images/DoctorOla.png"
-                  width={478}
-                  height={616}
+                  width={width > 990 ? 478 : 278}
+                  height={width > 990 ? 616 : 316}
                   alt="doctorola"
                 />
               </div>
@@ -335,16 +311,15 @@ const Homepage = () => {
           <Cover>
             <div className={styles.quailified}>
               <h1>Our highly qualified doctors</h1>
-              <Link href="#">
+              <Link href="/Doctors">
                 <span>
-                  <p>See More</p>
-                  <AiOutlineArrowRight />
+                  <p>SEE MORE </p> <AiOutlineArrowRight />
                 </span>
               </Link>
             </div>
             <div className={styles.doctors}>
               <div>
-                <Image
+                <img
                   src="/Assets/Images/Doctor1.png"
                   width={320}
                   height={371}
@@ -354,7 +329,7 @@ const Homepage = () => {
                 <p>GENERAL PRACTIONER</p>
               </div>
               <div>
-                <Image
+                <img
                   src="/Assets/Images/Doctor2.png"
                   width={320}
                   height={371}
@@ -364,7 +339,7 @@ const Homepage = () => {
                 <p>SURGEON</p>
               </div>
               <div>
-                <Image
+                <img
                   src="/Assets/Images/Doctor3.png"
                   width={320}
                   height={371}
@@ -394,7 +369,7 @@ const Homepage = () => {
                   </p>
                   <div className={styles.profile}>
                     <div className={styles.mainProfile}>
-                      <Image
+                      <img
                         src="/Assets/Images/ProfileImage.png"
                         width={24}
                         height={24}
@@ -405,6 +380,7 @@ const Homepage = () => {
                     <Link href="#">
                       <p className={styles.arrowRight}>
                         {" "}
+                        <BackSvg />
                         <AiOutlineArrowRight />
                       </p>
                     </Link>
