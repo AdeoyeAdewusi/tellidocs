@@ -11,7 +11,7 @@
     flex-direction: column;
 }
 .footermainI p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
@@ -23,7 +23,7 @@ font-size: 14px;
 color: #8B8C8C;
 }
 .footermainI h2{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -42,7 +42,7 @@ color: #1E3354;
     flex-direction: column;
 }
 .footermainII p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
@@ -55,7 +55,7 @@ line-height: 36px;
 color: #8B8C8C;
 }
 .footermainII h2{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -75,7 +75,7 @@ color: #1E3354;
     height: fit-content;
 }
 .footermainIII p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
@@ -88,7 +88,7 @@ line-height: 36px;
 color: #8B8C8C;
 }
 .footermainIII h2{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -107,7 +107,7 @@ color: #1E3354;
     flex-direction: column;
 }
 .footermainIV p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
@@ -120,7 +120,7 @@ line-height: 36px;
 color: #8B8C8C;
 }
 .footermainIV h2{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -137,7 +137,7 @@ color: #1E3354;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 300;
 font-size: 14px;

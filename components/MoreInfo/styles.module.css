@@ -50,7 +50,7 @@
 
 }
 .dob p:nth-child(1){
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 500;
     font-size: 10px;
@@ -83,7 +83,7 @@
     margin-top: 24px;
 }
 .purpose p:nth-child(1){
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 500;
 font-size: 10px;
@@ -95,7 +95,7 @@ color: #122750;
 
 }
 .purpose p:nth-child(2){
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 300;
 font-size: 12px;
@@ -110,7 +110,7 @@ color: #8B8C8C;
     margin-top: 24px;
 }
 .viewPatient p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 500;
 font-size: 10px;
@@ -165,7 +165,7 @@ color: #8B8C8C;
 
 }
 .topName p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
@@ -179,7 +179,7 @@ color: #122750;
 
 }
 .topConsult p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 400;
 font-size: 10px;
@@ -192,7 +192,7 @@ color: #8B8C8C;
 
 }
 .topEmail p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 300;
 font-size: 12px;
@@ -217,7 +217,7 @@ color: #8B8C8C;
     align-items: center;
 }
 .modal h1{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -240,7 +240,7 @@ border: 0.3px solid #697D95;
 border-radius: 5px;
 }
 .donstSend p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -270,7 +270,7 @@ padding: 11px 34px;
 color: white;
 }
 .send p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 500;
 font-size: 12px;

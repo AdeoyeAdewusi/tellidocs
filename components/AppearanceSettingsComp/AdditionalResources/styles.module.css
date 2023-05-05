@@ -1,0 +1,50 @@
+.generalH1{
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+}
+.aboutResources{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 35px;
+    width: 56%;
+}
+.aboutResources p{
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+/* or 150% */
+
+
+/* Secondary text */
+
+color: #8B8C8C;
+
+}
+.aboutTop{
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 400 !important;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354 !important;
+
+}

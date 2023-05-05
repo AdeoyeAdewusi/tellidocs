@@ -4,14 +4,14 @@
     align-items: center;
 }
 .heroSection div{
-    width: 50%;
+    width: 45%;
 
 }
 .body{
     background: #F2F9FE;
 }
 .heroSectionI h1{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -19,8 +19,8 @@
     line-height: 64px;
     color: #1E3354;
 }
-.heroSectionI p{
-    font-family: 'Inter';
+.heroSectionIP{
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -34,12 +34,26 @@
 .regBtn{
     margin-top: 25px;
 }
+.regBtn div{
+padding : 12px 34px !important;
+}
+.regBtn div p{
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 500;
+font-size: 12px !important;
+line-height: 15px !important;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
 .heroSectionIP{
     margin-top: 12px;
     color: #8B8C8C;
 }
 .specialisationSect h1{
-   font-family: 'Inter';
+   font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -76,7 +90,7 @@
     gap: 60px;
 }
 .specialisationSect p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -97,7 +111,7 @@
     width: 18%;
 }
 .mainSpecialisations h2{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -111,7 +125,7 @@ color: #1E3354;
 
 }
 .mainSpecialisations p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -161,7 +175,7 @@ align-items: center;
 padding: 11px 34px;
 gap: 10px;
 align-self: end;
-font-family: 'Inter';
+font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 500;
 font-size: 12px;
@@ -180,7 +194,7 @@ color: #FFFFFF;
 
 .joinSectInn h1{
     margin-bottom: 12px;
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
@@ -203,7 +217,7 @@ color: #FFFFFF;
     width: 50%;
 }
 .consult h1{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
@@ -274,7 +288,7 @@ margin-bottom: 24px;
     margin-bottom: 80px;
 }
 .healthServices h1{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
@@ -310,7 +324,7 @@ color: #8B8C8C;
     width: 15%;
 }
 .servicfesMain h2{
-font-family: 'Inter';
+font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -338,7 +352,7 @@ color: #8B8C8C;
 .easyConsult{
     display: flex;
     justify-content: center;
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
@@ -365,7 +379,7 @@ color: #1E3354;
     width: 15%;
 }
 .steps div h2{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
@@ -379,7 +393,7 @@ color: #127BDA;
 
 }
 .steps div h3{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -392,7 +406,7 @@ color: #127BDA;
     color: #1E3354;
 }
 .steps div p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -415,7 +429,7 @@ color: #127BDA;
     align-items: center;
 }
 .doctors h2{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -427,7 +441,7 @@ color: #127BDA;
     
 }
 .doctors p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 400;
 font-size: 10px;
@@ -445,7 +459,7 @@ color: #8B8C8C;
     margin-bottom: 50px;
 }
 .quailified p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -458,7 +472,7 @@ margin-right: 7px;
 color: #5BA121;
 }
 .quailified h1{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
@@ -498,7 +512,7 @@ align-items: center;
     gap: 33px;
 }
 .testInner p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
@@ -512,7 +526,7 @@ color: #8B8C8C;
 
 }
 .testInner h1{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
@@ -544,7 +558,7 @@ color: #122750;
 
 @media screen and (max-width: 990px) {
     .quailified h1 {
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -578,7 +592,7 @@ color: #122750;
     flex-direction: column;
 }
 .joinSectInn h1{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
@@ -590,7 +604,7 @@ text-align: right;
 color: #FFFFFF;
 }
 .joinSectInn p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
@@ -605,7 +619,7 @@ color: #FFFFFF;
 
 }
 .checklist p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
@@ -619,7 +633,7 @@ color: #1E3354;
 
 }
 .healthServices h1{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
@@ -635,7 +649,7 @@ color: #1E3354;
 .quailified h1{
     
     
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -663,7 +677,7 @@ color: #1E3354;
     width: 75% !important;
 }
 .healthServices h1 {
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -726,7 +740,7 @@ color: #1E3354;
     width: 40% !important;
 }
 .consult h1 {
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -745,7 +759,7 @@ color: #1E3354;
     margin-bottom: 24px;
 }
 .heroSectionI h1 {
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -759,7 +773,7 @@ color: #1E3354;
     
 }
 .heroSectionI p {
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -773,7 +787,7 @@ color: #1E3354;
     
 }
 .specialisationSect h1{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
@@ -786,7 +800,7 @@ color: #1E3354;
 }
 .specialisationSect p{
 
-font-family: 'Inter';
+font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
@@ -800,7 +814,7 @@ color: #8B8C8C;
 
 }
 .mainSpecialisations p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
@@ -814,7 +828,7 @@ color: #8B8C8C;
 
 }
 .consult h1{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
@@ -828,7 +842,7 @@ color: #1E3354;
 
 }
 .mainSpecialisations h2{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;

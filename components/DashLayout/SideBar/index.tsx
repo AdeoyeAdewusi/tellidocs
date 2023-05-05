@@ -203,29 +203,61 @@ const SideBar = () => {
               <p>Profile</p>
             </div>
           </Link>
-
-          <div className={styles.overView}>
-            <div
-              className={settings ? styles.active : styles.overViewSvg}
-              onMouseEnter={() => setSettings((prev) => !prev)}
-              onMouseLeave={() => setSettings((prev) => !prev)}
-            >
-              <SettingsSvg active={settings ? "white" : ""} />
+          <Link href="/Doctor/Settings">
+            <div className={styles.overView}>
+              <div
+                className={
+                  settings
+                    ? styles.active
+                    : router.pathname === "/Doctor/Settings"
+                    ? styles.active
+                    : styles.overViewSvg
+                }
+                onMouseEnter={() => setSettings((prev) => !prev)}
+                onMouseLeave={() => setSettings((prev) => !prev)}
+              >
+                <SettingsSvg
+                  active={
+                    settings
+                      ? "white"
+                      : router.pathname === "/Doctor/Settings"
+                      ? "white"
+                      : ""
+                  }
+                />
+              </div>
+              <p>Settings</p>
             </div>
-            <p>Settings</p>
-          </div>
+          </Link>
         </div>
+
         <div className={styles.profileSettings}>
-          <div className={styles.overView}>
-            <div
-              className={questions ? styles.active : styles.overViewSvg}
-              onMouseEnter={() => setQuestions((prev) => !prev)}
-              onMouseLeave={() => setQuestions((prev) => !prev)}
-            >
-              <QuestionSvg active={questions ? "white" : ""} />
+          <Link href="/Doctor/Support">
+            <div className={styles.overView}>
+              <div
+                className={
+                  questions
+                    ? styles.active
+                    : router.pathname === "/Doctor/Support"
+                    ? styles.active
+                    : styles.overViewSvg
+                }
+                onMouseEnter={() => setQuestions((prev) => !prev)}
+                onMouseLeave={() => setQuestions((prev) => !prev)}
+              >
+                <QuestionSvg
+                  active={
+                    questions
+                      ? "white"
+                      : router.pathname === "/Doctor/Support"
+                      ? "white"
+                      : ""
+                  }
+                />
+              </div>
+              <p>Support</p>
             </div>
-            <p>Support</p>
-          </div>
+          </Link>
           <div className={styles.overView}>
             <div
               className={logout ? styles.active : styles.overViewSvg}

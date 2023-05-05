@@ -1,0 +1,40 @@
+.chng{
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    
+    /* Sanar Text 1 */
+    margin-bottom: 50px;
+    color: #1E3354;
+       
+}
+.bankInfo label{
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.bankInfo input{
+    margin-top: 10px;  
+}
+.bankInfo select{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #fff;
+}
+.bank{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 35px;
+}

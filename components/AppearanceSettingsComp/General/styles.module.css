@@ -1,0 +1,21 @@
+.general{
+    display: flex;
+    justify-content: space-between;
+}
+.general p{
+font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.generalH1{
+    margin-bottom: 50px;
+}

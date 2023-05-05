@@ -1,0 +1,66 @@
+.general{
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+margin-bottom: 50px;
+/* Sanar Text 1 */
+
+color: #1E3354;
+}
+.notifs{
+    display: flex;
+    gap: 23px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.notifs div{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+
+}
+.turn{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 33px;
+    margin-top: 42px;
+}
+.turn div{
+    display:flex;
+    justify-content: space-between;
+
+    
+}
+.turn p{
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.notifs label{
+    font-family: 'Poppins', sans-serif;;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}

@@ -1,0 +1,39 @@
+.ref{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+.refss{
+    color: #8B8C8C;
+    font-size: 100px;
+}
+.youP{
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    /* Sanar Text 1 */
+    
+    color: #1E3354;
+    
+}
+.chng{
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    
+    /* Sanar Text 1 */
+    margin-bottom: 50px;
+    color: #1E3354;
+       
+}

@@ -7,6 +7,11 @@ import { TbReportMedical } from "react-icons/tb";
 import { TiDocumentText } from "react-icons/ti";
 import { AiOutlineCreditCard } from "react-icons/ai";
 import PersonalInformation from "../../../components/AppearanceComp/Profile/indx";
+import ChangePassword from "../../../components/AppearanceComp/ChangePassword";
+import ProfessionalInformation from "../../../components/AppearanceComp/ProfessionalInformation";
+import Qualifications from "../../../components/AppearanceComp/Qualification";
+import Refferees from "../../../components/AppearanceComp/Refferees";
+import BankInfo from "../../../components/AppearanceComp/BankInformation";
 
 const Profile = () => {
   const [page, setPage] = useState("Profile Information");
@@ -14,9 +19,16 @@ const Profile = () => {
     switch (page) {
       case "Profile Information":
         return <PersonalInformation />;
-
       case "Change Password":
-        return <div className={styles.switch}>Change Password</div>;
+        return <ChangePassword />;
+      case "Professional information":
+        return <ProfessionalInformation />;
+      case "Qualifications":
+        return <Qualifications />;
+      case "Referees":
+        return <Refferees />;
+      case "Bank Information":
+        return <BankInfo />;
     }
   };
   return (
