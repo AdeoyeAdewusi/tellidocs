@@ -4,7 +4,7 @@
     align-items: center;
 }
 .heroSection div{
-    width: 45%;
+    width: 48%;
 
 }
 .body{
@@ -254,7 +254,7 @@ margin-bottom: 24px;
 }
 .checklist{
     display: flex;
-    justify-content: space-between;
+    gap:17px;
     align-items: center;
     width: 100% !important;
 }
